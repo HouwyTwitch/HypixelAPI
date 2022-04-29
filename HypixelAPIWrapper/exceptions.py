@@ -6,3 +6,6 @@ class WrongInputParams(Exception):
     
 class TooMuchRequests(Exception):
     pass
+
+class DataIsNotPublic(Exception):
+    pass
